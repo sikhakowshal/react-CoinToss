@@ -14,7 +14,7 @@ class CoinToss extends Component {
         headsCount: preState.headsCount + 1,
         totalCount: preState.totalCount + 1,
       }))
-    } else {
+    } else if (tossResult === 1) {
       this.setState(preState => ({
         result: 'Tails',
         tailsCount: preState.tailsCount + 1,
