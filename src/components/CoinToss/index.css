@@ -1,0 +1,154 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .game-container {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+}
+
+.game-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .game-card {
+    width: 40%;
+  }
+}
+
+.title {
+  color: #a35200;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 48px;
+  }
+}
+
+.description {
+  color: #334155;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 22px;
+  }
+}
+
+.toss-result-img {
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .toss-result-img {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.toss-coin-btn {
+  color: #a35200;
+  background-color: #e2a139;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding: 8px 16px 8px 16px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .toss-coin-btn {
+    padding: 8px 17px 8px 17px;
+  }
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .results-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+  }
+}
+
+.total-count {
+  color: #475569;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .total-count {
+    font-size: 18px;
+  }
+}
+
+.heads-count {
+  color: #475569;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .heads-count {
+    font-size: 18px;
+  }
+}
+
+.tails-count {
+  color: #475569;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .tails-count {
+    font-size: 18px;
+  }
+}
